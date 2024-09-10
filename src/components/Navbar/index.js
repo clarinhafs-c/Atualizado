@@ -56,7 +56,7 @@ const Navbar = ({ toggle }) => {
             <IconContext.Provider value={{ color: '#fff' }}>
                 <Nav scrollNav={scrollNav}>
                     <NavbarContainer>
-                        <NavLogo to="/" onClick={toggleHome}> guga </NavLogo>
+                        <NavLogo to="/" onClick={toggleHome}> SkateFlow  </NavLogo>
                         <MobileIcon onClick={toggle}>
                             <FaBars />
                         </MobileIcon>
@@ -69,7 +69,7 @@ const Navbar = ({ toggle }) => {
                                 spy={true}
                                 activeClass='active'
                                 exact='true'
-                                > About </NavLinks>
+                                > Mapa </NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks 
@@ -78,7 +78,7 @@ const Navbar = ({ toggle }) => {
                                 duration={500}
                                 spy={true}
                                 activeClass='active'
-                                exact='true'> Discover </NavLinks>
+                                exact='true'> Eventos </NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks 
@@ -87,7 +87,7 @@ const Navbar = ({ toggle }) => {
                                 duration={500}
                                 spy={true}
                                 activeClass='active'
-                                exact='true'> Services </NavLinks>
+                                exact='true'> Artigos </NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks 

@@ -32,7 +32,7 @@ const Footer = () => {
                 <FooterLinksContainer>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
-                            <FooterLinkTitle> About us </FooterLinkTitle>
+                            <FooterLinkTitle> Sobre Nós </FooterLinkTitle>
                             <FooterLink to="/"> How it works </FooterLink>
                             <FooterLink to="/"> Testimonials </FooterLink>
                             <FooterLink to="/"> Careers </FooterLink>
@@ -60,7 +60,7 @@ const Footer = () => {
                             <FooterLink to="/"> Instagram </FooterLink>
                             <FooterLink to="/"> Facebook </FooterLink>
                             <FooterLink to="/"> Youtube </FooterLink>
-                            <FooterLink to="/"> Twitter </FooterLink>
+                            <FooterLink to="/"> Bluesky </FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>

@@ -10,7 +10,7 @@ export const homeObjOne = {
     description: 'Get access to our exclusive app that allows you to virtually interact with a real Guga.',
     buttonLabel: 'Entrar',
     imgStart: false,
-    img: require('../../images/svg-2.svg').default,
+    img: require('../../images/logo.svg').default,
     alt: 'GugaAbout',
     dark: true,
     primary: true,

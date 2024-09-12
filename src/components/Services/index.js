@@ -14,25 +14,27 @@ import {
 } from './ServicesElements'
 import { Button } from '../ButtonElement'
 
+//card muda de tamanho dependendo da quantia de caracteres
+//acho uma boa mudarmos os ids, não mexi para todos fazermos isso juntos para ficarmos atualizados.
 const Services = () => {
   return (
-    <ServicesContainer id='services'>
-        <ServicesH1> Our Services </ServicesH1>
+    <ServicesContainer id='services'> 
+        <ServicesH1> Artigos </ServicesH1>
         <ServicesWrapper>
             <ServicesCard>
               <ServicesIcon src={Icon1}/>
-              <ServicesH2> Learn Guga </ServicesH2>
-              <ServicesP> We guide users to achieve expertise in Guga training. </ServicesP>
+              <ServicesH2> Skateflow news </ServicesH2>
+              <ServicesP> Noticias do mundo do skate. </ServicesP>
             </ServicesCard>
             <ServicesCard>
-              <ServicesIcon src={Icon2}/>
+              <ServicesIcon src={Icon1}/>
               <ServicesH2> Virtual Offices </ServicesH2>
-              <ServicesP> You can access our platform online anywhere in the world. </ServicesP>
+              <ServicesP> asdsdf </ServicesP>
             </ServicesCard>
             <ServicesCard>
-              <ServicesIcon src={Icon3}/>
+              <ServicesIcon src={Icon1}/>
               <ServicesH2> Premium Benefits </ServicesH2>
-              <ServicesP> Unlock our special membership card that grants access to additional content. </ServicesP>
+              <ServicesP> lorem ipsum fecais</ServicesP>
             </ServicesCard>
         </ServicesWrapper>
         <BtnWrap>
@@ -45,7 +47,7 @@ const Services = () => {
               offset={-80}
               primary={1} 
               dark={0}
-          > Explore More </Button>
+          > Mais Informações </Button>
         </BtnWrap>
     </ServicesContainer>
   )

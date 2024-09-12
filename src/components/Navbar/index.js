@@ -81,13 +81,13 @@ const Navbar = ({ toggle }) => {
                                 exact='true'> Eventos </NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks 
+                            <NavLinks 
                                 to="services"
                                 smooth={true}
                                 duration={500}
                                 spy={true}
                                 activeClass='active'
-                                exact='true'> Artigos </NavLinks>
+                                exact='true'> artigos </NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks 
@@ -96,11 +96,11 @@ const Navbar = ({ toggle }) => {
                                 duration={500}
                                 spy={true}
                                 activeClass='active'
-                                exact='true'> Sign Up </NavLinks>
+                                exact='true'> Cadastro </NavLinks>
                             </NavItem>
                         </NavMenu>
                         <NavBtn>
-                            <NavBtnLink to="/signin"> Sign In</NavBtnLink>
+                            <NavBtnLink to="/signin"> Login</NavBtnLink>
                         </NavBtn>
                     </NavbarContainer>
                 </Nav>

@@ -16,16 +16,16 @@ const SignIn = () => {
   return (
     <Container>
         <FormWrap>
-            <Icon to="/"> guga </Icon>
+            <Icon to="/"> SkateFlow </Icon>
             <FormContent>
                 <Form action="#">
-                    <FormH1> Sign in to your account </FormH1>
+                    <FormH1> Faça Login de seu perfil </FormH1>
                     <FormLabel htmlFor='for'> Email </FormLabel>
                     <FormInput type='email' required/>
-                    <FormLabel htmlFor='for'> Password </FormLabel>
+                    <FormLabel htmlFor='for'> Senha </FormLabel>
                     <FormInput type='password' required/>
                     <FormButton type='submit'> Continue </FormButton>
-                    <Text> Forgot password? </Text>
+                    <Text> Esqueceu sua senha? </Text>
                 </Form>
             </FormContent>
         </FormWrap>

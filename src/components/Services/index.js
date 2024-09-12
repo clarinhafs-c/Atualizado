@@ -9,8 +9,10 @@ import {
   ServicesCard,
   ServicesIcon,
   ServicesH2,
-  ServicesP
+  ServicesP,
+  BtnWrap
 } from './ServicesElements'
+import { Button } from '../ButtonElement'
 
 const Services = () => {
   return (
@@ -30,9 +32,21 @@ const Services = () => {
             <ServicesCard>
               <ServicesIcon src={Icon3}/>
               <ServicesH2> Premium Benefits </ServicesH2>
-              <ServicesP> Unlock our special membership card that grant access to additional content. </ServicesP>
+              <ServicesP> Unlock our special membership card that grants access to additional content. </ServicesP>
             </ServicesCard>
         </ServicesWrapper>
+        <BtnWrap>
+          <Button 
+              to="home"
+              smooth={true}
+              duration={500}
+              spy={true}
+              exact="true"
+              offset={-80}
+              primary={1} 
+              dark={0}
+          > Explore More </Button>
+        </BtnWrap>
     </ServicesContainer>
   )
 }

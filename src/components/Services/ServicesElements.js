@@ -80,3 +80,9 @@ export const ServicesP = styled.p`
     font-size: 1rem;
     text-align: center;
 `
+
+export const BtnWrap = styled.div`
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+`

@@ -87,7 +87,7 @@ const Navbar = ({ toggle }) => {
                                 duration={500}
                                 spy={true}
                                 activeClass='active'
-                                exact='true'> artigos </NavLinks>
+                                exact='true'> Artigos </NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks 

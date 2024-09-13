@@ -29,9 +29,9 @@ const HeroSection = () => {
                 <DogBg autoPlay loop muted src={Video} type='dog/mp4'/>
             </HeroBg>
             <HeroContent>
-                <HeroH1> I am the GOAT </HeroH1>
+                <HeroH1> Bem Vindo à SkateFlow </HeroH1>
                 <HeroP> 
-                    Cachorro maneiro demais
+                       Seu ritmo, seu skate!
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button 
@@ -46,7 +46,7 @@ const HeroSection = () => {
                         activeClass='active'
                         exact='true'
                         > 
-                        Get started 
+                        Iniciar
                         {hover ? <ArrowForward/> : <ArrowRight/>} 
                     </Button>
                 </HeroBtnWrapper>

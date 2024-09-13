@@ -50,3 +50,20 @@ export const homeObjThree = {
     primary: false,
     darkText: true
 }
+//gente nada ta dando certo vou chorar desculpa
+export const homeObjfour = {
+    id: 'sobre',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Sobre´nós',
+    headline: 'Somos skateflow sei la oq',
+    description: "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
+    buttonLabel: 'Start Now',
+    imgStart: false,
+    img: require('../../images/svg-3.svg').default,
+    alt: 'Gugasobre',
+    dark: false,
+    primary: false,
+    darkText: true
+}

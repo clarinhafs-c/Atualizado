@@ -98,6 +98,15 @@ const Navbar = ({ toggle }) => {
                                 activeClass='active'
                                 exact='true'> Cadastro </NavLinks>
                             </NavItem>
+                            <NavItem>
+                                <NavLinks 
+                                to="sobre"
+                                smooth={true}
+                                duration={500}
+                                spy={true}
+                                activeClass='active'
+                                exact='true'> Sobre nós </NavLinks>
+                            </NavItem>
                         </NavMenu>
                         <NavBtn>
                             <NavBtnLink to="/signin"> Login</NavBtnLink>

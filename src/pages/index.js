@@ -3,10 +3,12 @@ import HeroSection from '../components/HeroSection'
 import Navbar from '../components/Navbar'
 import Sidebar from '../components/Sidebar'
 import InfoSection from '../components/InfoSection'
-import { homeObjOne, homeObjTwo, homeObjThree } from '../components/InfoSection/Data'
+import { homeObjOne, homeObjTwo, homeObjThree, } from '../components/InfoSection/Data'
 import Services from '../components/Services'
 import Footer from '../components/Footer'
-
+//import sobre from '../components/Sobre Nós'
+ 
+//rapaziada acho que o meu erro ta aqui
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
 

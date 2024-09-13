@@ -36,15 +36,15 @@ const Footer = () => {
                             <FooterLink to="/"> How it works </FooterLink>
                             <FooterLink to="/"> Testimonials </FooterLink>
                             <FooterLink to="/"> Careers </FooterLink>
-                            <FooterLink to="/"> Investors </FooterLink>
-                            <FooterLink to="/"> Terms of Service </FooterLink>
+                            <FooterLink to="/"> Investidores </FooterLink>
+                            <FooterLink to="/"> Termos de serviço </FooterLink>
                         </FooterLinkItems>
                         <FooterLinkItems>
-                            <FooterLinkTitle> Contact us </FooterLinkTitle>
-                            <FooterLink to="/"> Contact </FooterLink>
+                            <FooterLinkTitle> Nos contate </FooterLinkTitle>
+                            <FooterLink to="/"> Contato </FooterLink>
                             <FooterLink to="/"> Support </FooterLink>
                             <FooterLink to="/"> Destinations </FooterLink>
-                            <FooterLink to="/"> Sponsorships </FooterLink>
+                            <FooterLink to="/"> Patrocinadores </FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                     <FooterLinksWrapper>

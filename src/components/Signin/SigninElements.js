@@ -104,7 +104,7 @@ export const Text = styled.span`
     font-size: 14px;
 `
 
-export const LoginButton = styled.span`
+export const LoginButton = styled(Link)`
     text-align: center;
     margin-top: 24px;
     color: #fff;

@@ -24,6 +24,7 @@ export const Heading = styled.h2`
 
 export const Text = styled.p`
   font-size: 1rem;
+  color: #fff;
 `;
 
 // Adicionando estilo para o vídeo

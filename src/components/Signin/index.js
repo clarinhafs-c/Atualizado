@@ -64,7 +64,7 @@ const SignIn = () => {
             />
             {errorMessage && <p className="error-text">{errorMessage}</p>}
             <FormButton type='submit'>Continue</FormButton>
-            <LoginButton>Fazer Login</LoginButton>
+            <LoginButton to="/login">Fazer Login</LoginButton>
             <Text>Esqueceu sua senha?</Text>
           </Form>
         </FormContent>

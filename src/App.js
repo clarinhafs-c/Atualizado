@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages'; // Sua página inicial
 import SignInPage from './pages/signin'; // Sua página de cadastro
 import SuccessPage from './components/SucessPage/SucessPage';
-import Login from './components/LoginPage/Login'; // Importe a nova tela de login
+import Login from './LoginPage/Login'; // Importe a nova tela de login
 
 function App() {
   return (

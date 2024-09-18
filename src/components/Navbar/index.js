@@ -96,7 +96,7 @@ const Navbar = ({ toggle }) => {
                                 duration={500}
                                 spy={true}
                                 activeClass='active'
-                                exact='true'> Cadastro </NavLinks>
+                                exact='true'> Mobile </NavLinks>
                             </NavItem>
                         </NavMenu>
                         <NavBtn>

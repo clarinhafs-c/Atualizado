@@ -1,7 +1,6 @@
 import React from 'react'
-import Icon1 from '../../images/logo2.svg'
-import Icon2 from '../../images/svg-2.svg'
-import Icon3 from '../../images/svg-3.svg'
+import Icon1 from '../../images/ph.svg'
+
 import {
   ServicesContainer,
   ServicesH1,
@@ -28,13 +27,15 @@ const Services = () => {
             </ServicesCard>
             <ServicesCard>
               <ServicesIcon src={Icon1}/>
-              <ServicesH2> Virtual Offices </ServicesH2>
-              <ServicesP> asdsdf </ServicesP>
+              <ServicesH2> Top 10 pistas de skates 
+                da america latina </ServicesH2>
+              <ServicesP> Avaliadas por vocês! </ServicesP>
             </ServicesCard>
             <ServicesCard>
               <ServicesIcon src={Icon1}/>
-              <ServicesH2> Premium Benefits </ServicesH2>
-              <ServicesP> lorem ipsum fecais</ServicesP>
+              <ServicesH2> Grupos femininos de skate que 
+                você deve conhecer </ServicesH2>
+              <ServicesP> Esses grupos crescem mais e mais!</ServicesP>
             </ServicesCard>
         </ServicesWrapper>
         <BtnWrap>

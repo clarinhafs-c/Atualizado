@@ -31,11 +31,16 @@ const HeroSection = () => {
             <HeroContent>
                 <HeroH1> Bem Vindo à SkateFlow </HeroH1>
                 <HeroP> 
-                       Seu ritmo, seu skate!
+                       Somos uma comunidade, onde você, skatista, pode encontrar outros skatistas!
+                       
+                </HeroP>
+                <HeroP>
+                Tenha acesso a pistas compartilhadas por usuarios, veja e agende seus ingressos para eventos 
+                que estamos divulgando e leia artigos escritos por nós!
                 </HeroP>
                 <HeroBtnWrapper>
                     <Button 
-                        to="signup" 
+                        to="about" 
                         onMouseEnter={ onHover } 
                         onMouseLeave={ onHover }
                         primary="true"
